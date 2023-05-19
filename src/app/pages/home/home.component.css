@@ -1,0 +1,13 @@
+header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__articles {
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row; /* manter o conteúdo em linha*/
+    justify-content: center;
+}

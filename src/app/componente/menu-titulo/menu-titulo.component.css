@@ -1,0 +1,12 @@
+.container__menu-titulo > h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__menu-titulo > hr {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
