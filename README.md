@@ -1,3 +1,4 @@
+![angular-blog](https://github.com/leticiaslucena/angular-blog/assets/101010396/7c171753-89a7-40f6-810f-d0171ee5c5d1)
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
