@@ -5,13 +5,30 @@
 <app-menu-titulo></app-menu-titulo>
 
 <div class="container__articles">
+
+    <!--Desse big card posso criar vários cads dinâmicos-->
     <div class="articles-main">
-        <app-big-card></app-big-card>
+        <app-big-card fotoCover="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
+        cardTitulo="Tecnologia Angular"
+        cardDescricao="Angular é um dos frameworks JavaScript mais populares entre os desenvolvedores que usam a ferramenta para desenvolver e construir sites dinâmicos."
+        >
+        </app-big-card>
     </div>
 
+       <!--pequenos cards -->
     <div class="articles-outro">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card fotoCover="https://i.stack.imgur.com/g35kQ.png"
+        cardTitulo="componentes do Angular"
+        ></app-small-card>
+
+        <app-small-card fotoCover="https://www.freecodecamp.org/portuguese/news/content/images/2022/04/angular-cli-install.png"
+        cardTitulo="Visão geral da CLI e referência de comando"
+        ></app-small-card>
+
+        <app-small-card fotoCover="https://dicasdejavascript.com.br/images/ng-serve--open.gif"
+        cardTitulo="ng serve"
+        ></app-small-card>
+        
     </div>
 
 </div>

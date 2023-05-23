@@ -26,3 +26,9 @@
     margin-top: 20px;
     color: gray;
 }
+
+@media screen and (min-width: 280px) {
+    .container__big-card {
+        min-width: 100px
+    }
+}

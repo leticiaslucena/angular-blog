@@ -22,6 +22,12 @@
 }
 
 .container__small-separador {
-    margin-top: 20px;
+    margin-top: 10px;
 
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px) {
+    .container__small-card {
+        min-width: 200px
+    }
 }

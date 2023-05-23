@@ -11,3 +11,10 @@ header {
     flex-direction: row; /* manter o conteúdo em linha*/
     justify-content: center;
 }
+
+
+@media screen and (min-width: 280px) {
+    .container__articles{
+        min-width: 200px
+    }
+}
